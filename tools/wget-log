@@ -1,0 +1,4 @@
+--2019-01-10 19:49:34--  https://adopt-openjdk.ci.cloudbees.com/view/OpenJDK/job/asmtools/lastSuccessfulBuild/artifact/asmtools-6.0.tar.gz
+Resolving adopt-openjdk.ci.cloudbees.com... 54.164.7.113, 52.1.126.146
+Connecting to adopt-openjdk.ci.cloudbees.com|54.164.7.113|:443... connected.
+Unable to establish SSL connection.

@@ -1,0 +1,9 @@
+vm把boolean当做int来处理
+
+flag = iconst_1 = true
+
+awk把stackframe中的flag改为iconst_2
+
+if（flag）比较时ifeq指令做是否为零判断，常数2仍为true，打印输出
+
+if（true == flag）比较时if_cmpne做整数比较，iconst_1是否等于flag，比较失败，不再打印输出
